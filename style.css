@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7d0f98;
+   
+}
+.container{
+    width: 450px;
+    height: auto;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 25px;
+}
+.container span{ 
+    color: #57115c;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.container p{
+    color: #303030;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.container .input_items{
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .input_items input{
+    width: 60%;
+    height: 40px;
+    border: 1px solid #303030;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.container .input_items button{
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #500781;
+    color: #ffff;
+}
+.container .error{
+    font-size: 15px;
+    color: crimson;
+    margin-top: 10px;
+}
+.container .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.container .content .year,.month,.day{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.container .content .year p,.month p,.day p{
+    font-size: 40px;
+    font-weight: 500px;
+    color: #904CE4;
+}
+.container .content .year h5,.month h5,.day h5{
+    font-size: 15px;
+    color: #303030;
+}
